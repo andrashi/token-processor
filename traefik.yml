@@ -1,0 +1,11 @@
+displayName: Token Processor
+type: middleware
+iconPath: .assets/icon.png
+
+import: github.com/yourusername/traefik-token-processor
+
+summary: 'Extract parts from a JWT token and set them as headers'
+
+testData:
+  sourceHeader: X-Gs-Access-Token
+  destinationHeader: X-Api-Apigateway-X-Userinfo
